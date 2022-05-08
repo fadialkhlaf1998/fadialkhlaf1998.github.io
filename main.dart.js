@@ -50750,8 +50750,8 @@ s.f=s.c.I(r).f.a.a/60
 s.r=s.c.I(r).f.a.a/80},
 $S:0}
 A.Yg.prototype={
-$1(a){var s=null,r=B.d.v(a,"apple")?"IOS":"Android"
-return A.a1j(s,A.cT(r,s,A.c4(s,s,B.ps.i(0,800),s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.ds),B.aW,!1,s,s,s,s,s,s,s,s,s,s,new A.Yf(this.a,a),s,s,s,s,s)},
+$1(a){var s=null,r=this.a,q=B.d.v(a,"apple")?"IOS":"Android"
+return A.a1j(s,A.cT(q,s,A.c4(s,s,B.ps.i(0,800),s,s,s,s,s,s,s,s,r.r,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.ds),B.aW,!1,s,s,s,s,s,s,s,s,s,s,new A.Yf(r,a),s,s,s,s,s)},
 $S:309}
 A.Yf.prototype={
 $0(){this.a.nq(this.b)},
