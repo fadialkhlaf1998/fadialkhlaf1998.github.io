@@ -53773,7 +53773,7 @@ n=t.N
 m=J
 l=B.H
 s=3
-return A.x($.Ee().a00("languages/"+o.ge2(o)+".json"),$async$D2)
+return A.x($.Ee().a00("assets/languages/"+o.ge2(o)+".json"),$async$D2)
 case 3:p.b=m.aYq(l.cM(0,c),new A.agz(),n,n)
 q=!0
 s=1
@@ -55734,7 +55734,7 @@ h=s.n(r).f
 g=s.n(r).f
 l=A.y(c7,A.bp(A.a([k,A.y(c7,A.aP(A.a([A.y(c7,A.aP(A.a([c9.ot(s,0,"home"),A.aw(c7,c7,s.n(r).f.a.a*0.03),c9.ot(s,1,"about"),A.aw(c7,c7,s.n(r).f.a.a*0.03),c9.ot(s,2,"gallery"),A.aw(c7,c7,s.n(r).f.a.a*0.03),c9.ot(s,3,"contact")],a0),B.m,c7,B.ai,B.l,c7,c7),B.e,c7,c7,c7,c7,c7,c7,c7,c7,c7,c7,g.a.a)],a0),B.m,c7,B.u,B.l,c7,c7),B.e,c7,c7,c7,c7,h.a.b*0.05,c7,c7,c7,c7,c7,j.a.a)],a0),B.m,B.u,B.l,B.D),B.e,c7,c7,c7,c7,c7,c7,c7,c7,c7,c7,l.a.a)}else{l=s.n(r).f.a.b*0.15>s.n(r).f.a.a*0.2?s.n(r).f.a.a*0.2:s.n(r).f.a.b*0.15
 k=s.n(r).f.a.b*0.15>s.n(r).f.a.a*0.2?s.n(r).f.a.a*0.2:s.n(r).f.a.b*0.15
-l=A.y(c7,c7,B.e,c7,c7,new A.aS(c7,A.l0(B.c7,new A.ou("image/logo.png",c7,c7),c7),c7,c7,c7,c7,B.A),c7,k,c7,c7,c7,c7,c7,l)
+l=A.y(c7,c7,B.e,c7,c7,new A.aS(c7,A.l0(B.c7,new A.ou("assets/image/logo.png",c7,c7),c7),c7,c7,c7,c7,B.A),c7,k,c7,c7,c7,c7,c7,l)
 k=s.n(r).f
 j=s.n(r).f
 i=A.aw(c7,s.n(r).f.a.b*0.03,c7)
@@ -55792,7 +55792,7 @@ a2=s.n(r).f
 a3=t.p
 c=A.f_(A.y(c7,A.bp(A.a([A.y(c7,A.bp(A.a([a0,A.y(c7,A.fs(u.a,c7,c7,1,1,A.ar(c7,c7,c7,c7,c7,c7,c7,c7,c7,c7,c7,30,c7,c7,c7,c7,!0,c7,c7,c7,c7,c7,c7,c7,c7)),B.e,c7,c7,c7,c7,a2.a.a*0.15,c7,c7,c7,c7,c7,a1.a.a*0.4)],a3),B.m,B.aT,B.l,B.D),B.e,c7,c7,c7,c7,c7,c7,c7,c7,c7,c7,a.a.a*0.4)],a3),B.m,B.ai,B.l,B.D),B.e,b,c7,c7,c7,c.a.a*0.3,c7,c7,c7,c7,c7,c7),1)
 b=s.n(r).f
-e=A.y(c7,A.aP(A.a([c,A.f_(A.y(c7,c7,B.e,c7,c7,new A.aS(c7,A.l0(B.c7,new A.ou("image/about.jpg",c7,c7),c7),c7,c7,c7,c7,B.A),c7,b.a.a*0.3,c7,c7,c7,c7,c7,c7),1)],a3),B.m,c7,B.u,B.l,c7,c7),B.e,c7,c7,c7,c7,d.a.a*0.3,c7,c7,c7,c7,c7,e.a.a)
+e=A.y(c7,A.aP(A.a([c,A.f_(A.y(c7,c7,B.e,c7,c7,new A.aS(c7,A.l0(B.c7,new A.ou("assets/image/about.jpg",c7,c7),c7),c7,c7,c7,c7,B.A),c7,b.a.a*0.3,c7,c7,c7,c7,c7,c7),1)],a3),B.m,c7,B.u,B.l,c7,c7),B.e,c7,c7,c7,c7,d.a.a*0.3,c7,c7,c7,c7,c7,e.a.a)
 d=s.n(r).f
 b=s.n(r).f
 c=s.n(r).f
