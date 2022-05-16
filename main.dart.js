@@ -53767,7 +53767,7 @@ n=t.N
 m=J
 l=B.H
 s=3
-return A.x($.Ef().a_V("assets/languages/"+o.ge3(o)+".json"),$async$CY)
+return A.x($.Ef().a_V("languages/"+o.ge3(o)+".json"),$async$CY)
 case 3:p.b=m.aYw(l.cJ(0,c),new A.agD(),n,n)
 q=!0
 s=1
@@ -55749,7 +55749,7 @@ i=d0.n(s).f
 h=d0.n(s).f
 m=A.y(c6,A.bp(A.a([l,A.y(c6,A.aQ(A.a([A.y(c6,A.aQ(A.a([c8.ot(d0,0,"home"),A.aw(c6,c6,d0.n(s).f.a.a*0.03),c8.ot(d0,1,"about"),A.aw(c6,c6,d0.n(s).f.a.a*0.03),c8.ot(d0,2,"gallery"),A.aw(c6,c6,d0.n(s).f.a.a*0.03),c8.ot(d0,3,"contact")],a),B.m,c6,B.ai,B.l,c6,c6),B.e,c6,c6,c6,c6,c6,c6,c6,c6,c6,c6,h.a.a)],a),B.m,c6,B.u,B.l,c6,c6),B.e,c6,c6,c6,c6,i.a.b*0.05,c6,c6,c6,c6,c6,k.a.a)],a),B.m,B.u,B.l,B.D),B.e,c6,c6,c6,c6,c6,c6,c6,c6,c6,c6,m.a.a)}else{m=d0.n(s).f.a.b*0.15>d0.n(s).f.a.a*0.2?d0.n(s).f.a.a*0.2:d0.n(s).f.a.b*0.15
 l=d0.n(s).f.a.b*0.15>d0.n(s).f.a.a*0.2?d0.n(s).f.a.a*0.2:d0.n(s).f.a.b*0.15
-m=A.y(c6,c6,B.e,c6,c6,new A.aS(c6,A.l0(B.c7,new A.ou("assets/logo.png",c6,c6),c6),c6,c6,c6,c6,B.A),c6,l,c6,c6,c6,c6,c6,m)
+m=A.y(c6,c6,B.e,c6,c6,new A.aS(c6,A.l0(B.c7,new A.ou("image/logo.png",c6,c6),c6),c6,c6,c6,c6,B.A),c6,l,c6,c6,c6,c6,c6,m)
 l=d0.n(s).f
 k=d0.n(s).f
 j=A.aw(c6,d0.n(s).f.a.b*0.03,c6)
