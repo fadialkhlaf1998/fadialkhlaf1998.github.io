@@ -51238,7 +51238,7 @@ r[1]=r[1]+s[1]
 r[2]=r[2]+s[2]
 r[3]=r[3]+s[3]}}
 A.Ao.prototype={
-S(a,b){return new A.rd(B.Bq,"Flutter Demo",A.a7a(null,B.pz),null)}}
+S(a,b){return new A.rd(B.Bq,"Fadi Alkhlaf",A.a7a(null,B.pz),null)}}
 A.rr.prototype={
 aD(){var s=new A.aQ(new Float64Array(16))
 s.df()
@@ -51247,7 +51247,7 @@ A.FW.prototype={
 FO(a){this.aI(new A.YZ(this))},
 b6(){this.bG()},
 S(b1,b2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4=this,a5=null,a6=4284137951,a7=4284268260,a8=4286211750,a9="An online store for makeup , beauty and skin care E-Commerce project developed by (Flutter ,Node JS , MySQL).",b0=A.cg(b2).cx
-A.D_(new A.xk("Fadi Alkhlaf 2",b0.gp(b0)))
+A.D_(new A.xk("Fadi Alkhlaf",b0.gp(b0)))
 a4.FO(0)
 b0=t.w
 s=b2.I(b0).f
