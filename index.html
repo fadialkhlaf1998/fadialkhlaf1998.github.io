@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="const.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/fadi-1.jpg">
+
+    <title>Fadi Alkhlaf</title>
+    <script> function scrollTrigger(selector){
+        let els = document.querySelectorAll(selector)
+        els = Array.from(els)
+        els.forEach(el => {
+          addObserver(el)
+        })
+      }
+      function addObserver(el){
+          // We are creating a new IntersectionObserver instance
+          let observer = new IntersectionObserver((entries, observer) => { // This takes a callback function that receives two arguments: the elements list and the observer instance.
+            entries.forEach(entry => {
+              // `entry.isIntersecting` will be true if the element is visible
+            if(entry.isIntersecting) {
+              entry.target.classList.add('active')
+              // We are removing the observer from the element after adding the active class
+              observer.unobserve(entry.target)
+            }
+          })
+        })
+        // Adding the observer to the element
+        observer.observe(el)
+      }
+     
+         document.onreadystatechange = () => {
+            // document.getElementById('language').classList.remove('active');
+            // scrollTrigger('.section-title');
+            scrollTrigger('.animated-right');
+            scrollTrigger('.animated-bottom');
+            scrollTrigger('.animated-left');
+            // document.getElementById('language').classList.add('active');
+         }
+       </script>
+</head>
+<body>
+    <div class="sections-container">
+        <div class="larg-text animated-left">
+            Software
+        </div>
+        <div class="larg-text animated-right">
+            engineer
+        </div>
+        <h1 class="text-gradient m-auto animated-bottom">Fadi Alkhlaf</h1>
+        <!-- Begin About -->
+        <div class="about mt-96 animated-right">
+            <div class="row">
+                <div class="col-lg-5 col-md-4  col-sm-3 text-center">
+                    <img class="img-fluid avatar" src="images/fadi-1.jpg" alt="" srcset="">
+                </div>
+                <div class="col-lg-7 col-md-8  col-sm-9 d-flex flex-column justify-content-center">
+                    <h4 class="white-1">About Me</h4>
+                    <p class="white-4">
+        I am a highly skilled software engineer graduate from Damascus University. As the Head of Section at a leading UAE company, I oversee a team of software engineers, ensuring successful project delivery. Additionally, I work as a freelancer, providing tailored software solutions to clients. With a passion for continuous learning and staying updated with the latest industry trends, I am dedicated to delivering exceptional results.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- End About -->
+        <!-- Begin Services -->
+        <h1 class="mt-96 white-1 text-center  animated-left">My Services</h1>
+        <div class="section grid mt-96">
+            <div class="background-text">
+                <div class="x-larg-text animated-left">
+                    Services
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="content text-center p-32">
+                    <img src="images/services/software-engineer.png" alt="" class="img-fluid animated-right">
+                    <h6 class="white-1 text-center mt-32">Software Engineering</h6>
+                </div>
+                <div class="blur-card"></div> 
+            </div>
+
+            <div class="grid-item">
+                <div class="content text-center p-32">
+                    <img src="images/services/project-managment.png" alt="" class="img-fluid animated-bottom">
+                    <h6 class="white-1 text-center mt-32">Project Managment</h6>
+                </div>
+                <div class="blur-card"></div> 
+            </div>
+
+            <div class="grid-item">
+                <div class="content text-center p-32">
+                    <img src="images/services/cloud-computing.png" alt="" class="img-fluid animated-left">
+                    <h6 class="white-1 text-center mt-32">Cloud Computing</h6>
+                </div>
+                <div class="blur-card"></div> 
+            </div>
+            <div class="grid-item">
+                <div class="content text-center p-32">
+                    <img src="images/services/back-end.png" alt="" class="img-fluid animated-right">
+                    <h6 class="white-1 text-center mt-32">Back-End Development</h6>
+                </div>
+                <div class="blur-card"></div> 
+            </div>
+
+            <div class="grid-item">
+                <div class="content text-center p-32">
+                    <img src="images/services/mobile.png" alt="" class="img-fluid animated-bottom">
+                    <h6 class="white-1 text-center mt-32">Mobile Development</h6>
+                </div>
+                <div class="blur-card"></div> 
+            </div>
+
+            <div class="grid-item">
+                <div class="content text-center p-32">
+                    <img src="images/services/front-end.png" alt="" class="img-fluid animated-left">
+                    <h6 class="white-1 text-center mt-32">Front-End Development</h6>
+                </div>
+                <div class="blur-card"></div> 
+            </div>
+        </div>
+        <!-- End Services -->
+        <!-- Begin Education -->
+        <h1 class="mt-96 white-1 text-center">Educations</h1>
+        <div class="section mt-96">
+            <div class="background-text">
+                <div class="x-larg-text animated-right">
+                    Educations
+                </div>
+            </div>
+            <div class="card p-32">
+                <div class="blur-card"></div> 
+                <ul class="white-1 content ">
+                    <li class="pt-16">
+                        <h6>Bachelor of Science : 2016 with degree 232.4/240.</h6>
+                    </li>
+                    <li class="pt-16">
+                        <h6>Information Technology Engineering Software specialist in Damascus university : 2022.</h6>
+                    </li>
+                    <li class="pt-16">
+                        <h6>Foundations of Project Management By
+                            <span style="color: #4086f4;">G</span>
+                            <span style="color: #eb4132;">o</span>
+                            <span style="color: #fbbd01;">o</span>
+                            <span style="color: #4086f4;">g</span>
+                            <span style="color: #31aa52;">l</span>
+                            <span style="color: #eb4132;">e</span>
+                        </h6>
+                    </li>
+                    <li class="pt-16">
+                        <h6>Project Initiation By 
+
+                            <span style="color: #4086f4;">G</span>
+                            <span style="color: #eb4132;">o</span>
+                            <span style="color: #fbbd01;">o</span>
+                            <span style="color: #4086f4;">g</span>
+                            <span style="color: #31aa52;">l</span>
+                            <span style="color: #eb4132;">e</span>
+                        </h6>
+                    </li>
+                    <li class="pt-16">
+                        <h6>Project Planning By 
+                            <span style="color: #4086f4;">G</span>
+                            <span style="color: #eb4132;">o</span>
+                            <span style="color: #fbbd01;">o</span>
+                            <span style="color: #4086f4;">g</span>
+                            <span style="color: #31aa52;">l</span>
+                            <span style="color: #eb4132;">e</span>
+                        </h6>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Education -->
+        <!-- Begin WORK EXPERIENCE -->
+        <h1 class="mt-96 white-1 text-center">WORK EXPERIENCE</h1>
+        <div class="section mt-96 grid">
+            <div class="background-text">
+                <div class="x-larg-text animated-right">
+                    WORK EXPERIENCE
+                </div>
+            </div>
+            <div class="card p-32 grid-item">
+                <div class="blur-card"></div> 
+                <ul class="white-1 content ">
+                    <li>
+                        <h6>Full Stack Developer </h6>
+                        <div class="white-4">Freelancer [ 2018 – 2020 ] / Syria - Damascus </div>
+                        <ul>
+                            <li>
+                                Mobile development
+                                <ul>
+                                    <li>
+                                        Android Native java
+                                    </li>
+                                    <li>
+                                        Flutter
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Front-End Development
+                                <ul>
+                                    <li>Html</li>
+                                    <li>Css</li>
+                                    <li>javascript</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Back-End Development
+                                <ul>
+                                    <li>ASP.Net</li>
+                                    <li>Sprint Boot</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="card p-32 grid-item">
+                <div class="blur-card"></div> 
+                <ul class="white-1 content ">
+                    <li>
+                        <h6>Mobile Development Head Of Section (Android , iOS)</h6>
+                        <div class="white-4">Maxart [ 2020 – Current ]  / UAE - Dubai (Remotely) </div>
+                        <ul>
+                            <li>
+                                Software Engineering
+                                <ul>
+                                    <li>Analyse</li>
+                                    <li>Design</li>
+                                    <li>Scheduling</li>
+                                    <li>Planning</li>
+                                    <li>Budgeting</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Mobile development
+                                <ul>
+                                    <li>
+                                        Flutter
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Front-End Development
+                                <ul>
+                                    <li>Html</li>
+                                    <li>Css</li>
+                                    <li>javascript</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Back-End Development
+                                <ul>
+                                    <li>Node.js</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="card p-32 grid-item">
+                <div class="blur-card"></div> 
+                <ul class="white-1 content ">
+                    <li>
+                        <h6>Flutter Trainer </h6>
+                        <div class="white-4">Donbosco Center [ 01/01/2023 – Current ] / Syria - Damascus </div>
+                    </li>
+                    <li class="pt-32">
+                        <h6>Html, Css , javascript Trainer </h6>
+                        <div class="white-4">Donbosco Center [ 01/01/2023 – Current ] / Syria - Damascus </div>
+                    </li>
+                    <li class="pt-32">
+                        <h6>Node.js Trainer </h6>
+                        <div class="white-4">Donbosco Center [ 01/01/2023 – Current ] / Syria - Damascus </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End WORK EXPERIENCE -->
+        <!-- Begin PROGRAMING AND DESIGN SKILLS -->
+        <h1 class="mt-96 white-1 text-center">PROGRAMING AND DESIGN SKILLS</h1>
+        <h2 class="mt-96 white-4 text-center">Software Diagram</h2>
+        <div class="section mt-40 grid white-border border-25 p-40">
+            <div class="blur-card"></div>
+            <div class="background-text">
+                <div class="x-larg-text animated-left">
+                    Software Diagram
+                </div>
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-right" src="images/Diagrams/class diagram.png" alt="" srcset="">
+                <h6 class="white-1 mt-32">Class Diagram</h6>
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-bottom" src="images/Diagrams/context.png" alt="" srcset="">
+                <h6 class="white-1 mt-32">Context Diagram</h6>
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-left" src="images/Diagrams/function-point.png" alt="" srcset="">
+                <h6 class="white-1 mt-32">Function Point</h6>
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-right" src="images/Diagrams/object.png" alt="" srcset="">
+                <h6 class="white-1 mt-32">Object Diagram</h6>
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-bottom" src="images/Diagrams/usecase point.png" alt="" srcset="">
+                <h6 class="white-1 mt-32">UseCase Point</h6>
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-left white-1-bk-circle" src="images/Diagrams/usecase.svg" alt="" srcset="">
+                <h6 class="white-1 mt-32">UseCase</h6>
+            </div>
+            <div class="grid-small-item text-center ">
+                <img class="animated-right white-1-bk-circle" src="images/Diagrams/sequance.png" alt="" srcset="">
+                <h6 class="white-1 mt-32">Sequance Diagram</h6>
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-bottom" src="images/Diagrams/wps.png" alt="" srcset="">
+                <h6 class="white-1 mt-32">WPS</h6>
+            </div>
+            
+        </div>
+        <h2 class="mt-96 white-4 text-center">Mobile</h2>
+        <div class="section mt-40 grid white-border border-25 p-40">
+            <div class="blur-card"></div>
+            <div class="background-text">
+                <div class="x-larg-text animated-right">
+                    Mobile
+                </div>
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-left" src="images/mobile/flutter.png" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-right" src="images/mobile/java.jpg" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-bottom" src="images/mobile/Kotlin.png" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-left" src="images/mobile/swift.png" alt="" srcset="">
+            </div>
+        </div>
+        <h2 class="mt-96 white-4 text-center">Web</h2>
+        <div class="section mt-40 grid white-border border-25 p-40">
+            <div class="blur-card"></div>
+            <div class="background-text">
+                <div class="x-larg-text animated-left">
+                    Web
+                </div>
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-right" src="images/web/html.png" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-bottom" src="images/web/css.png" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-left" src="images/web/js.webp" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-right" src="images/web/bootstrap.webp" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-bottom" src="images/web/jquery.png" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-left" src="images/web/node.png" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-right" src="images/web/spring.png" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-bottom" src="images/web/asp.png" alt="" srcset="">
+            </div>
+        </div>
+        <h2 class="mt-96 white-4 text-center">Desktop</h2>
+        <div class="section mt-40 grid white-border border-25 p-40">
+            <div class="blur-card"></div>
+            <div class="background-text">
+                <div class="x-larg-text animated-right">
+                    Desktop
+                </div>
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-left" src="images/Desktop/c++.png" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-right" src="images/Desktop/c-sharp.png" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-bottom" src="images/Desktop/c.png" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-left" src="images/Desktop/java.jpg" alt="" srcset="">
+            </div>
+        </div>
+        <h2 class="mt-96 white-4 text-center">Clouds & Panels</h2>
+        <div class="section mt-40 grid white-border border-25 p-40">
+            <div class="blur-card"></div>
+            <div class="background-text">
+                <div class="x-larg-text animated-left">
+                    Clouds Panels
+                </div>
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-right" src="images/clouds/aws.png" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-bottom" src="images/clouds/cpanel.png" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-left" src="images/clouds/cloudways.png" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-right" src="images/clouds/Google-Cloud-Emblem.png" alt="" srcset="">
+            </div>
+            <div class="grid-small-item text-center">
+                <img class="animated-bottom" src="images/clouds/plesk.png" alt="" srcset="">
+            </div>
+        </div>
+        <!-- ******************************************************* -->
+        <h1 class="mt-96 white-1 text-center">Projects</h1>
+        <div class="section mt-96 grid">
+            <div class="background-text">
+                <div class="x-larg-text animated-right">
+                    Projects
+                </div>
+            </div>
+            <div class="card grid-item animated-left">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/alwan.webp" alt="" srcset="">
+                    <h6 class="white-1 mt-32">Alwan</h6>
+                    <p class="white-4 mt-32" >An application to help Alwan company for handle orders and follow customer requests developed by (Flutter ,Node JS, MySQL). Dashboard (Html, Css, Javascript).</p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://apps.apple.com/eg/app/alwan-press/id1639886875">
+                                <img src="images/icons/ios.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://play.google.com/store/apps/details?id=com.maxart.alwan_press">
+                                <img src="images/icons/android.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card grid-item animated-bottom">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/barkley.webp" alt="" srcset="">
+                    <h6 class="white-1 mt-32">Barkley k9</h6>
+                    <p class="white-4 mt-32" >An online store for pets services, toys and food E-Commerce project developed by (Flutter ,Node JS ,MySQL). Dashboard (Html, Css, Javascript).</p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://apps.apple.com/eg/app/barkley-k9/id1641448170">
+                                <img src="images/icons/ios.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://play.google.com/store/apps/details?id=com.maxart.bk9">
+                                <img src="images/icons/android.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card grid-item animated-right">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/albasel.webp" alt="" srcset="">
+                    <h6 class="white-1 mt-32">Albasel Cosmetics </h6>
+                    <p class="white-4 mt-32" >An online store for makeup , beauty and skin care E-Commerce project developed by (Flutter ,Node JS , MySQL).
+                        Dashboard (Html, Css, Javascript).</p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://apps.apple.com/ae/app/albasel-cosmetics/id1617441141">
+                                <img src="images/icons/ios.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://play.google.com/store/apps/details?id=com.maxart.albassel_version_1">
+                                <img src="images/icons/android.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card grid-item animated-left">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/dayjour.webp" alt="" srcset="">
+                    <h6 class="white-1 mt-32">Dayjour</h6>
+                    <p class="white-4 mt-32" >An online store for makeup , beauty and skin care E-Commerce project developed by (Flutter ,Node JS , MySQL).
+                        Dashboard (Html, Css, Javascript).</p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://apps.apple.com/ae/app/dayjour/id1617512231">
+                                <img src="images/icons/ios.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://play.google.com/store/apps/details?id=com.maxart.dayjour_version_3">
+                                <img src="images/icons/android.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card grid-item animated-bottom">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/vip_rent_a_car.webp" alt="" srcset="">
+                    <h6 class="white-1 mt-32">VIP Rent A Car </h6>
+                    <p class="white-4 mt-32" >An Application to rent cars in Dubai developed by (Flutter ,Node JS, MySQL).
+                        Dashboard (Html, Css, Javascript).
+                    </p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://apps.apple.com/app/vip-rent-a-car/id6443827139">
+                                <img src="images/icons/ios.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://play.google.com/store/apps/details?id=com.maxart.vip_hotels">
+                                <img src="images/icons/android.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card grid-item animated-right">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/zyo.webp" alt="" srcset="">
+                    <h6 class="white-1 mt-32">ZYO Collections </h6>
+                    <p class="white-4 mt-32" >An online store for fashion E-Commerce project developed by (Flutter ,Shopify).
+                    </p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://apps.apple.com/ae/app/zyo-collections/id1616141619">
+                                <img src="images/icons/ios.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://play.google.com/store/apps/details?id=com.maxart.zyo_shopify">
+                                <img src="images/icons/android.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card grid-item animated-left">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/b2b.webp" alt="" srcset="">
+                    <h6 class="white-1 mt-32">CRC - Car Rental Club</h6>
+                    <p class="white-4 mt-32" >An application for car rental companies to help them share cars with each other to meet the needs of customers
+                        developed by (Flutter ,Node JS , MySQL).
+                        Dashboard (Html, Css, Javascript)</p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://apps.apple.com/ae/app/car-rental-club-crc/id1617996467">
+                                <img src="images/icons/ios.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://play.google.com/store/apps/details?id=com.maxart.crc_version_1">
+                                <img src="images/icons/android.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card grid-item animated-bottom">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/nabd.webp" alt="" srcset="">
+                    <h6 class="white-1 mt-32">NABD</h6>
+                    <p class="white-4 mt-32" >An application to help Kalamoon university students with their transportation developed by (Flutter ,Node JS ,
+                        MySQL).
+                        Dashboard (Html, Css, Javascript).</p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://apps.apple.com/eg/app/nabd-alpha/id6443733286">
+                                <img src="images/icons/ios.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://play.google.com/store/apps/details?id=com.fadi.kalamoon">
+                                <img src="images/icons/android.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card grid-item animated-right">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/crd.webp" alt="" srcset="">
+                    <h6 class="white-1 mt-32">CRD</h6>
+                    <p class="white-4 mt-32" >An application for car rental companies to help them to deliver cars to their clients (Flutter ,Node JS , MySQL).
+                        Dashboard (Html, Css, Javascript).</p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://apps.apple.com/eg/app/car-renral-delivery-crd/id1634378199">
+                                <img src="images/icons/ios.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://play.google.com/store/apps/details?id=com.maxart.vip_delivery_version_1">
+                                <img src="images/icons/android.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card grid-item animated-left">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/in-out.webp" alt="" srcset="">
+                    <h6 class="white-1 mt-32">In Out App </h6>
+                    <p class="white-4 mt-32" >An application to help companies employees to know the works hours with overtime and breaks developed by
+                        (Flutter ,Node JS, MySQL).
+                        Dashboard (Html, Css, Javascript).</p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://apps.apple.com/ae/app/in-out-maxart/id1642274287">
+                                <img src="images/icons/ios.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://play.google.com/store/apps/details?id=com.maxart.in_out_app">
+                                <img src="images/icons/android.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card grid-item animated-bottom">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/chaplin.webp" alt="" srcset="">
+                    <h6 class="white-1 mt-32">Chaplin</h6>
+                    <p class="white-4 mt-32" >An online restaurant has a lot services like menu ,request a song, request a car from the parking and stories
+                        developed by (Flutter ,Node JS , MySQL).
+                        Dashboard (Html, Css, Javascript).</p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://apps.apple.com/ae/app/chaplin-restaurant/id1615942786">
+                                <img src="images/icons/ios.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                        <div class="btn-icon col-3">
+                            <a class="w-100" target="_blank" href="https://play.google.com/store/apps/details?id=com.maxart.chaplin_new_version">
+                                <img src="images/icons/android.svg" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card grid-item animated-right">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/no-name.jpg" alt="" srcset="">
+                    <h6 class="white-1 mt-32">Online library</h6>
+                    <p class="white-4 mt-32" >an electronic library contain mobile app for user to read books and save his progress, website for admin to add /
+                        remove books from library this system developed by (Flutter ,node.js ,SQL).</p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="card grid-item animated-left">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/no-name.jpg" alt="" srcset="">
+                    <h6 class="white-1 mt-32">Find Me </h6>
+                    <p class="white-4 mt-32" >mobile app to find your device if has stolen or find your friends without internet this app developed by two tools
+                        (android native ,flutter).</p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="card grid-item animated-bottom">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/no-name.jpg" alt="" srcset="">
+                    <h6 class="white-1 mt-32">Online Appointment</h6>
+                    <p class="white-4 mt-32" >a system contain mobile app for user to book an appointment , website for admin to cancel / update / accept a
+                        meeting this system developed by (Flutter ,ASP.Net ,SQL).</p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="card grid-item animated-right">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/no-name.jpg" alt="" srcset="">
+                    <h6 class="white-1 mt-32">SARC</h6>
+                    <p class="white-4 mt-32" >mobile app for Syrian Arab Red Crestent for save volunteer times this app developed by (flutter).</p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="card grid-item animated-left">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/no-name.jpg" alt="" srcset="">
+                    <h6 class="white-1 mt-32">Media Player</h6>
+                    <p class="white-4 mt-32" >Desktop app for decode an encode mp4/mp3 and play them this app developer by (java).</p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                     
+                    </div>
+                </div>
+            </div>
+
+            <div class="card grid-item animated-bottom">
+                <div class="blur-card"></div> 
+                <div class="content text-center p-32">
+                    <img class="circle" src="images/projects/no-name.jpg" alt="" srcset="">
+                    <h6 class="white-1 mt-32">Compression Utility</h6>
+                    <p class="white-4 mt-32" >Desktop app for compress and file / folder with hufman algorithm this app developed by (c#).</p>
+                    <div class="row mt-32 gap-32 justify-content-center">
+                      
+                    </div>
+                </div>
+            </div>
+
+            
+            
+        
+        </div>
+    </div>
+</body>
+</html>
