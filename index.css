@@ -237,6 +237,12 @@ body{
   }
 }
 @media (max-width: 480px) {
+  .animated-bottom{
+    transform: translateY(-100%);
+  }
+  .active {
+    transform: translate(0,0);
+  }
   .grid{
     display: flex;
     flex-direction: column;
